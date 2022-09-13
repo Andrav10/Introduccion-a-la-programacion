@@ -1,0 +1,17 @@
+public class main 
+{
+  public static void main (string[] args)
+  {
+  coche miCoche = new coche
+  miCoche.sumarpuertas();
+  system.out.println(miCoche.puertas);
+  }
+}
+class coche 
+{
+  public int puertas = 4;
+  public void sumarpuertas()
+  {
+    this.puertas++;
+  }
+}  
